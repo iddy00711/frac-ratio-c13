@@ -25,7 +25,7 @@ function createTable(){
 
     setTimeout(()=>{
         createTable.remove()
-    }, 1001)
+    }, 501)
 
     const inputNum = document.getElementById('table-input');
    
@@ -63,7 +63,7 @@ function createTable(){
 
             const textInput = document.createElement('input');
             textInput.type = 'text';
-            textInput.value = ' ';
+            textInput.value = '';
             textInput.className = 'sample';
             li.appendChild(textInput);
         }
